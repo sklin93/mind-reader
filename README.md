@@ -15,6 +15,8 @@ Mapping model is defined as ```fmri_clip_res``` in [```fmri_clip.py```](https://
 
 Conditional generative model is modified in StyleGAN2 folder, main files changed: [```train.py```](https://github.com/sklin93/mind-reader/blob/main/StyleGAN2/train.py), files under [training folder](https://github.com/sklin93/mind-reader/tree/main/StyleGAN2/training), and files in [torch_utils/ops](https://github.com/sklin93/mind-reader/tree/main/StyleGAN2/torch_utils/ops) because of compatibility issues (see [here](https://github.com/drboog/Lafite/pull/10/commits/91cd6c1dafed2c6f96010c3e348a450175507e3f)).
 
+To use the trained models for generation, see this [notebook](https://colab.research.google.com/drive/1q6s9IWNkR6PsUP9NrdbiG7Euywuz6dd3?usp=sharing).
+
 We used [wandb](https://wandb.ai/site) for hyperparameter tracking & tuning.
 
 **Sample results**

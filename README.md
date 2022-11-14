@@ -9,6 +9,14 @@ We include additional text modality for reconstructing image stimuli from fMRI a
 
 ![pipeline](https://user-images.githubusercontent.com/13376403/190880191-79dc3d2c-e631-4efd-92b3-1b954a5b7311.png)
 
+**Code**
+
+Mapping model is defined as ```fmri_clip_res``` in [```fmri_clip.py```](https://github.com/sklin93/mind-reader/blob/main/fmri_clip.py)
+
+Conditional generative model is modified in StyleGAN2 folder, main files changed: [```train.py```](https://github.com/sklin93/mind-reader/blob/main/StyleGAN2/train.py), files under [training folder](https://github.com/sklin93/mind-reader/tree/main/StyleGAN2/training), and files in [torch_utils/ops](https://github.com/sklin93/mind-reader/tree/main/StyleGAN2/torch_utils/ops) because of compatibility issues (see [here](https://github.com/drboog/Lafite/pull/10/commits/91cd6c1dafed2c6f96010c3e348a450175507e3f)).
+
+We used [wandb](https://wandb.ai/site) for hyperparameter tracking & tuning.
+
 **Sample results**
 
 For each two rows: top is ground truth, bottom is our reconstruction.

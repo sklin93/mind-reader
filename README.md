@@ -28,7 +28,3 @@ For each two rows: top is ground truth, bottom is our reconstruction.
 ![vCrha16VfRmH5D3-DN-iQKXJsHMI15PTd97mo1yKXAe5BD68-I5f-sRhlULI-TZo1EEpRr8PhdCQWCTBLkX7pxDVUX8BI-Ev2uh0NB1UUmELosad5ReuxibuFCZy](https://user-images.githubusercontent.com/13376403/190880271-7c7f0033-8ab2-40d4-8d82-b80dcd46b424.png)
 
 ![nVpS3he8E62YBfgU-XEHHqc2hWyIZ8siAW9DkPkMUSpfCzJaPZ_uCVJ_pZMtRUxswnhJsu-4WTOrLbmybfr9j2ceiEbIp4pn2WLOuDXZqdI-uxIdaoRHUwgLLknE](https://user-images.githubusercontent.com/13376403/190880272-a1793c52-2f79-4190-8d5c-b0e2866f165f.png)
-
-**Ongoing**
-
-We will also add implementations (in PyTorch) and more results of previous brain reconstruction methods (they mainly focus on pixel-level reconstruction whereas ours focus more on semantic-level), stay tuned!
